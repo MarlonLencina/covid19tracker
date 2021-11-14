@@ -19,6 +19,12 @@
     },
     "plugins": ["react", "@typescript-eslint", "react-hooks", "prettier"],
     "rules": {
+        "prettier/prettier": [
+            "error",
+            {
+                "endOfLine": "auto"
+            }
+        ],
         "no-use-before-define": "off",
         "react/function-component-definition": [
             "off",
